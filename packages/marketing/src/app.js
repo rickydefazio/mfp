@@ -5,6 +5,7 @@ import { StylesProvider } from '@material-ui/core/styles';
 import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
+// Triggering workflow
 export default () => {
   return (
     <div>
