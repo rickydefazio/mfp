@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { createMemoryHistory, createBrowserHistory } from 'history';
 import App from './App';
 
+// Trigger workflow
 export function mount(el, { onNavigate, defaultHistory, initialPath }) {
   const history =
     defaultHistory ??
