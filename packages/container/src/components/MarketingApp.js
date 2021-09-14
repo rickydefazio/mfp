@@ -1,6 +1,6 @@
+import { mount } from 'marketing/src/bootstrap';
 import React, { useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
-import { mount } from '../../../marketing/src/bootstrap';
 
 export default () => {
   const ref = useRef(null);
